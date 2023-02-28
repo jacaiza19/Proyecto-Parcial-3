@@ -32,13 +32,36 @@ FECHA: 29-02-2023
 
 # 3. MATERIALES
 * Protoboard o placa de pruebas
+* ![image](https://user-images.githubusercontent.com/116832991/221930329-10d7748c-268e-4ccd-9b7a-e24ad8e840fd.png)
+
+
 * 1 integrado LM 386
-* 1 Condensador de 220 uF a 16V 
+* ![image](https://user-images.githubusercontent.com/116832991/221929895-e5f7b327-133c-42f8-beb1-e1c5d9e76563.png)
+
+
+* 1 Condensador de 220 uF a 16V
+* ![image](https://user-images.githubusercontent.com/116832991/221929753-c3df8e06-e79f-4233-9e87-d6c638cff4b8.png)
+
+ 
 * 1 Potenciomentro de 10K
+* ![image](https://user-images.githubusercontent.com/116832991/221930674-3d9f3d7d-2002-4296-9481-3213b82cc7bc.png)
+
+
 * fuente de alimentacion entre 5V a 12V
+* ![image](https://user-images.githubusercontent.com/116832991/221928808-046b4b40-cfb6-4827-a5e6-97b66cc225b4.png)
+
+
 * 1 bocina de 8 ohms 2 watts
+* ![image](https://user-images.githubusercontent.com/116832991/221928541-9bc45823-f087-4288-be4e-3faac7fe8c60.png)
+
+
 * 1 cable plug o adaptador de audio
-* jumpers o cables macho macho 
+* ![image](https://user-images.githubusercontent.com/116832991/221928137-be4eb543-8fc2-4c45-8b22-8132204db581.png)
+
+
+* jumpers o cables macho macho
+* ![image](https://user-images.githubusercontent.com/116832991/221927961-2bde1e3c-6990-4fa4-b1aa-bfb1261dedd2.png)
+
 
 # 4. PROCEDIMIENTO 
 ## Diagrama del circuito 
@@ -59,8 +82,12 @@ Para comenzar con el circuito, primero detallamos el diagrama circuital  del pro
 10. ![image](https://user-images.githubusercontent.com/116832991/221780592-0c1e1dc1-7112-4c22-a435-421f34649d29.png)
 
 
-## FUNCIONAMIENTO DEL CIRCUITO 
-* 
+## FUNCIONAMIENTO DEL CIRCUITO
+
+El circuito funciona mediante un circuito integrado el cual es el LM 386 este es un amplificador de audio el cual tiene 8 pines, los cuales se detallan a continuacion en la imagen:
+* ![image](https://user-images.githubusercontent.com/116832991/221934243-f8acb08c-16a4-4c9c-bff7-03f550102c5f.png)
+
+* Para comenzar realizamos un puente entre los pines 2 y 4 del integrado posteriormente realizamos una conexion desde el pin 2 del integrado este el pin no inversor el cual se utiliza para proporcionar la señal de audio, lo conectamos mediante un jumper al pin medio del potenciometro, como sabemos el potenciometro tiene 3 pines el pin izquierdo conectado a la fuente de alimentacion, el pin medio se encarga de controlar la intensidad de corriente que fluye por el circuito y el pin derecho conectado a tierra, con esta conexion controlamos la salida de audio, realizamos una conexion desde el pin 6 el cual va conectado a la fuente de alimentacion al pin positivo del condensador, este se encarga de almacenar carga y suministrar la energía que le demanda el amplificador y desde el pin negativo realizamos una conexion a la bocina, en el potenciometro
 
 # VIDEO
 
